@@ -321,7 +321,7 @@
 
                         setTimeout(() => {
                             $alert.addClass('alert-danger').removeClass('alert-warning').html(`
-                                <strong>Error:</strong><br>Your transfer code is incorrect! Complete checkout or check your code your code must be unique and valid redemption code.:${inputTest}
+                                <strong>Error:</strong><br>Número de transferência de pagamento inválido. Seu código de transferência é o número de transferência exibido em sua carteira após o pagamento. Você deve ter pago. Seu código de transferência de pagamento é seu código de transferência exclusivo.//Seu código de transferência de pagamento inválido ▶:${inputTest}
                                 `);
                             form.toggleSubmitButtons(true);
                         }, 10000)
